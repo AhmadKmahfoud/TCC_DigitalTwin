@@ -2,9 +2,9 @@ import paho.mqtt.client as mqtt
 import socket
 
 # Configurações MQTT
-MQTT_BROKER = "broker.hivemq.com"  # Endereço do broker MQTT
+MQTT_BROKER = ""  # Endereço do broker MQTT
 MQTT_PORT = 1883
-MQTT_TOPIC = "sensor/temperatura"
+MQTT_TOPIC = ""
 
 # Configurações Ethernet
 ETHERNET_IP = "192.168.1.100"  # IP do servidor de destino
