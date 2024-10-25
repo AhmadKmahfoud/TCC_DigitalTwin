@@ -311,6 +311,8 @@
                 statusElement.textContent = 'Pedido enviado com sucesso! Sua bolacha está a caminho! 🍪';
                 statusElement.className = 'success-message';
                 nomeInput.value = '';
+                chocolateButton.classList.toggle('selected', false);
+                baunilhaButton.classList.toggle('selected', false);
                 selectedCookie = null;
                 updateButtons();
                 
